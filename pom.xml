@@ -9,7 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>spring-banner</module>
         <module>huffman</module>
+        <module>spring-application-arguments</module>
+        <module>spring-banner</module>
     </modules>
 
     <properties>
