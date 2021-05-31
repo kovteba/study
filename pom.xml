@@ -22,7 +22,7 @@
         <module>spring-application-arguments</module>
         <module>spring-maven-profiles</module>
         <module>spring-maven-actuator</module>
-        <module>spring-actuator</module>
+        <module>spring-actuator-git</module>
     </modules>
 
     <properties>
