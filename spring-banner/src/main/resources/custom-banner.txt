@@ -1,0 +1,56 @@
+
+░█████╗░██╗░░░██╗░██████╗████████╗░█████╗░███╗░░░███╗       ██████╗░░█████╗░███╗░░██╗███╗░░██╗███████╗██████╗░
+██╔══██╗██║░░░██║██╔════╝╚══██╔══╝██╔══██╗████╗░████║       ██╔══██╗██╔══██╗████╗░██║████╗░██║██╔════╝██╔══██╗
+██║░░╚═╝██║░░░██║╚█████╗░░░░██║░░░██║░░██║██╔████╔██║       ██████╦╝███████║██╔██╗██║██╔██╗██║█████╗░░██████╔╝
+██║░░██╗██║░░░██║░╚═══██╗░░░██║░░░██║░░██║██║╚██╔╝██║       ██╔══██╗██╔══██║██║╚████║██║╚████║██╔══╝░░██╔══██╗
+╚█████╔╝╚██████╔╝██████╔╝░░░██║░░░╚█████╔╝██║░╚═╝░██║       ██████╦╝██║░░██║██║░╚███║██║░╚███║███████╗██║░░██║
+░╚════╝░░╚═════╝░╚═════╝░░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═╝       ╚═════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝
+
+--------------------------------------------------------------------------
+Application Name : ${application.title}
+Application Version : ${application.version}
+Application Formatted Version : ${application.formatted-version}
+Spring Boot Version : ${spring-boot.version}
+Spring Boot Formatted Version : ${spring-boot.formatted-version}
+--------------------------------------------------------------------------
+BACKGROUND COLORS:
+${AnsiBackground.GREEN}BACKGROUND GREEN${AnsiStyle.NORMAL}
+${AnsiBackground.BLACK}BACKGROUND BLACK${AnsiStyle.NORMAL}
+${AnsiBackground.BLUE}BACKGROUND BLUE${AnsiStyle.NORMAL}
+${AnsiBackground.CYAN}BACKGROUND CYAN${AnsiStyle.NORMAL}
+${AnsiBackground.MAGENTA}BACKGROUND MAGENTA${AnsiStyle.NORMAL}
+${AnsiBackground.RED}BACKGROUND RED${AnsiStyle.NORMAL}
+${AnsiBackground.WHITE}BACKGROUND WHITE${AnsiStyle.NORMAL}
+${AnsiBackground.YELLOW}BACKGROUND YELLOW${AnsiStyle.NORMAL}
+${AnsiBackground.BRIGHT_BLACK}BACKGROUND BRIGHT_BLACK${AnsiStyle.NORMAL}
+${AnsiBackground.BRIGHT_CYAN}BACKGROUND BRIGHT_CYAN${AnsiStyle.NORMAL}
+${AnsiBackground.BRIGHT_GREEN}BACKGROUND BRIGHT_GREEN${AnsiStyle.NORMAL}
+${AnsiBackground.BRIGHT_MAGENTA}BACKGROUND BRIGHT_MAGENTA${AnsiStyle.NORMAL}
+${AnsiBackground.BRIGHT_RED}BACKGROUND BRIGHT_RED${AnsiStyle.NORMAL}
+${AnsiBackground.BRIGHT_WHITE}BACKGROUND BRIGHT_WHITE${AnsiStyle.NORMAL}
+${AnsiBackground.BRIGHT_YELLOW}BACKGROUND BRIGHT_YELLOW${AnsiStyle.NORMAL}
+--------------------------------------------------------------------------
+FONT STYLES:
+${AnsiStyle.UNDERLINE}UNDERLINE${AnsiStyle.NORMAL}
+${AnsiStyle.ITALIC}ITALIC${AnsiStyle.NORMAL}
+${AnsiStyle.FAINT}FAINT${AnsiStyle.NORMAL}
+${AnsiStyle.BOLD}BOLD${AnsiStyle.NORMAL}
+--------------------------------------------------------------------------
+FONT COLORS:
+${AnsiColor.YELLOW}FONT YELLOW${AnsiStyle.NORMAL}
+${AnsiColor.RED}FONT RED${AnsiStyle.NORMAL}
+${AnsiColor.MAGENTA}FONT MAGENTA${AnsiStyle.NORMAL}
+${AnsiColor.WHITE}FONT WHITE${AnsiStyle.NORMAL}
+${AnsiColor.GREEN}FONT GREEN${AnsiStyle.NORMAL}
+${AnsiColor.CYAN}FONT CYAN${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_YELLOW}FONT BRIGHT_YELLOW${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_WHITE}FONT BRIGHT_WHITE${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_RED}FONT BRIGHT_RED${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_MAGENTA}FONT BRIGHT_MAGENTA${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_GREEN}FONT BRIGHT_GREEN${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_CYAN}FONT BRIGHT_CYAN${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_BLACK}FONT BRIGHT_BLACK${AnsiStyle.NORMAL}
+${AnsiColor.BLUE}FONT BLUE${AnsiStyle.NORMAL}
+${AnsiColor.BLACK}FONT BLACK${AnsiStyle.NORMAL}
+--------------------------------------------------------------------------
+

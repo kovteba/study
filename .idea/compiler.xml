@@ -2,12 +2,41 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="study" />
+        <module name="spring-maven-actuator" />
+        <module name="huffman" />
+        <module name="spring-banner" />
+        <module name="spring-actuator-git" />
+        <module name="spring-application-arguments" />
+        <module name="demo1" />
+        <module name="spring-maven-profiles" />
+      </profile>
+      <profile name="Annotation profile for study" enabled="true">
+        <sourceOutputDir name="../spring-banner/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spring-banner/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring" target="11" />
+      <module name="spring1" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="huffman" options="-parameters" />
+      <module name="spring" options="-parameters" />
+      <module name="spring-actuator-git" options="-parameters" />
+      <module name="spring-application-arguments" options="-parameters" />
+      <module name="spring-banner" options="-parameters" />
+      <module name="spring-maven-actuator" options="-parameters" />
+      <module name="spring-maven-profiles" options="-parameters" />
+      <module name="spring1" options="-parameters" />
+    </option>
   </component>
 </project>
