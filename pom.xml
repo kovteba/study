@@ -23,6 +23,7 @@
         <module>spring-maven-profiles</module>
         <module>spring-maven-actuator</module>
         <module>spring-actuator-git</module>
+        <module>spring-actuator-flyway</module>
     </modules>
 
     <properties>
@@ -31,6 +32,7 @@
         <spring-boot-starter-web.version>2.4.4</spring-boot-starter-web.version>
         <lombok.version>1.18.16</lombok.version>
         <spring-boot-starter-actuator.version>2.4.5</spring-boot-starter-actuator.version>
+        <flyway-core.version>7.9.1</flyway-core.version>
     </properties>
 
     <dependencyManagement>
@@ -50,6 +52,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${spring-boot-starter-actuator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-core</artifactId>
+                <version>${flyway-core.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
