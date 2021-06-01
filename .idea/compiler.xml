@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-maven-actuator" />
-        <module name="spring-actuator-health-custom-component" />
         <module name="huffman" />
         <module name="spring-banner" />
         <module name="spring-actuator-git" />
         <module name="spring-actuator-flyway" />
+        <module name="spring-actuator-custom-component" />
         <module name="spring-application-arguments" />
         <module name="demo1" />
         <module name="spring-maven-profiles" />
@@ -33,9 +33,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="huffman" options="-parameters" />
       <module name="spring" options="-parameters" />
+      <module name="spring-actuator-custom-component" options="-parameters" />
       <module name="spring-actuator-flyway" options="-parameters" />
       <module name="spring-actuator-git" options="-parameters" />
-      <module name="spring-actuator-health-custom-component" options="-parameters" />
       <module name="spring-application-arguments" options="-parameters" />
       <module name="spring-banner" options="-parameters" />
       <module name="spring-maven-actuator" options="-parameters" />

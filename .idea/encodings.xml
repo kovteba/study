@@ -2,10 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/huffman/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-actuator-custom-component/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-actuator-flyway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-actuator-git/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-actuator-git/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-actuator-health-custom-component/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-application-arguments/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-banner/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-maven-actuator/src/main/java" charset="UTF-8" />
