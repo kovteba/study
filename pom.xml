@@ -25,6 +25,7 @@
         <module>spring-actuator-git</module>
         <module>spring-actuator-flyway</module>
         <module>spring-actuator-custom-component</module>
+        <module>spring-configuration-properties</module>
     </modules>
 
     <properties>
