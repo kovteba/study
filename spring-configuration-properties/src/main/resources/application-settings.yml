@@ -1,0 +1,23 @@
+environments:
+  dev:
+    url: 'https://dev.example.com'
+    name: 'Developer Setup'
+    status[0]: 'ACTIVE'
+    status[1]: 'LOCKED'
+    secret-code: ${random.uuid}
+    random-values:
+      - ${random.int}
+      - ${random.int}
+      - ${random.int}
+      - ${random.int}
+    admin:
+      username: 'ADMIN'
+      password: 'PASSWORD'
+    random-map:
+      '[/key1]': ${random.int}
+      '[/key2]': ${random.int}
+      '/key3': ${random.int}
+  database:
+    url: 'jdbc:db2://10.10.10.100:50000/TEST'
+    db-user: 'user'
+    db-password: 'password'
