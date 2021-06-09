@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-maven-actuator" />
         <module name="huffman" />
+        <module name="spring-HATEOAS" />
         <module name="spring-banner" />
         <module name="spring-actuator-git" />
         <module name="spring-actuator-flyway" />
@@ -34,6 +35,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="huffman" options="-parameters" />
       <module name="spring" options="-parameters" />
+      <module name="spring-HATEOAS" options="-parameters" />
       <module name="spring-actuator-custom-component" options="-parameters" />
       <module name="spring-actuator-flyway" options="-parameters" />
       <module name="spring-actuator-git" options="-parameters" />

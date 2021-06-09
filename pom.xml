@@ -26,6 +26,7 @@
         <module>spring-actuator-flyway</module>
         <module>spring-actuator-custom-component</module>
         <module>spring-configuration-properties</module>
+        <module>spring-HATEOAS</module>
     </modules>
 
     <properties>
