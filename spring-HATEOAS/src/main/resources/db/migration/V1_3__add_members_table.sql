@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS MEMBERS (
+    TEAM_ID numeric,
+    USER_ID  numeric,
+    PRIMARY KEY (TEAM_ID, USER_ID)
+);
+
