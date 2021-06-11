@@ -27,6 +27,10 @@
         <module>spring-actuator-custom-component</module>
         <module>spring-configuration-properties</module>
         <module>spring-HATEOAS</module>
+        <module>algorithms</module>
+        <module>collections</module>
+        <module>spring-factory-method</module>
+        <module>spring-aop</module>
     </modules>
 
     <properties>

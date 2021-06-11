@@ -7,17 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-maven-actuator" />
-        <module name="huffman" />
+        <module name="algorithms" />
         <module name="spring-HATEOAS" />
         <module name="spring-banner" />
         <module name="spring-actuator-git" />
-        <module name="spring-actuator-flyway" />
         <module name="spring-actuator-custom-component" />
+        <module name="spring-factory-method" />
         <module name="spring-configuration-properties" />
+        <module name="spring-maven-profiles" />
+        <module name="spring-maven-actuator" />
+        <module name="huffman" />
+        <module name="collections" />
+        <module name="spring-actuator-flyway" />
+        <module name="spring-aop" />
         <module name="spring-application-arguments" />
         <module name="demo1" />
-        <module name="spring-maven-profiles" />
       </profile>
       <profile name="Annotation profile for study" enabled="true">
         <sourceOutputDir name="../spring-banner/target/generated-sources/annotations" />
@@ -33,15 +37,19 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algorithms" options="-parameters" />
+      <module name="collections" options="-parameters" />
       <module name="huffman" options="-parameters" />
       <module name="spring" options="-parameters" />
       <module name="spring-HATEOAS" options="-parameters" />
       <module name="spring-actuator-custom-component" options="-parameters" />
       <module name="spring-actuator-flyway" options="-parameters" />
       <module name="spring-actuator-git" options="-parameters" />
+      <module name="spring-aop" options="-parameters" />
       <module name="spring-application-arguments" options="-parameters" />
       <module name="spring-banner" options="-parameters" />
       <module name="spring-configuration-properties" options="-parameters" />
+      <module name="spring-factory-method" options="-parameters" />
       <module name="spring-maven-actuator" options="-parameters" />
       <module name="spring-maven-profiles" options="-parameters" />
       <module name="spring1" options="-parameters" />
