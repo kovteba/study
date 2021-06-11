@@ -1,4 +1,4 @@
-package kovteba.insertionsort;
+package kovteba.sort.insertionsort;
 
 public class InsertionSort {
     public static int[] insertionSort(int[] arr) {

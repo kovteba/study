@@ -1,4 +1,4 @@
-package kovteba.bubblesort;
+package kovteba.sort.bubblesort;
 
 public class BubbleSort {
 

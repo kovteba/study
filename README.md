@@ -8,10 +8,12 @@
 + [Spring maven actuator](spring-maven-actuator)
 + [Spring maven profiles](spring-maven-profiles)
 + [Algorithms](algorithms)
-  + [Bubble Sort](algorithms/src/main/java/kovteba/bubblesort/BubbleSort.java)
-  + [Insertion Sort](algorithms/src/main/java/kovteba/insertionsort/InsertionSort.java)
-  + [GCD Euclid](algorithms/src/main/java/kovteba/euclid)
-  + []()
+  + Sort:
+    + [Bubble Sort](algorithms/src/main/java/kovteba/sort/bubblesort/BubbleSort.java)
+    + [Insertion Sort](algorithms/src/main/java/kovteba/sort/insertionsort/InsertionSort.java)
+    + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
+  + Search:
+    + []()
 + [Collections](collections)
   + [My implementation of ArrayList](collections/src/main/java/kovteba/myarraylist)
   + [My implementation of LinkedList](collections/src/main/java/kovteba/linkedlist)
