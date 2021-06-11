@@ -7,7 +7,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import src.main.java.kovteba.mapper.team.TeamMapper;
 import src.main.java.kovteba.model.team.TeamModel;
-import src.main.java.kovteba.persistance.team.repository.TeamRepository;
 import src.main.java.kovteba.service.team.TeamService;
 
 import java.util.List;

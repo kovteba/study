@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="radioStationsFactory"
+          class="kovteba.RadioStationsFactory"/>
+
+    <bean id="classicStation"
+          factory-bean="radioStationsFactory"
+          factory-method="getRadioStation">
+        <constructor-arg value="classic"/>
+    </bean>
+
+    <bean id="rockStation"
+          factory-bean="radioStationsFactory"
+          factory-method="getRadioStation">
+        <constructor-arg value="rock"/>
+    </bean>
+
+    <bean id="musicPlayer"
+          class="kovteba.MusicPlayer">
+            <constructor-arg>
+                <list>
+                    <ref bean="classicStation" />
+                    <ref bean="rockStation" />
+                </list>
+            </constructor-arg>
+    </bean>
+
+</beans>
