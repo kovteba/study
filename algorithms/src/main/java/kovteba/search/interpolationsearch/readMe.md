@@ -1,0 +1,1 @@
+https://www.matematicus.ru/vysshaya-matematika/issledovanie-funktsii/linejnaya-interpolyatsiya
