@@ -1,9 +1,7 @@
-package kovteba;
+package kovteba.sort;
 
-import kovteba.bubblesort.BubbleSort;
-import kovteba.insertionsort.InsertionSort;
-
-import java.util.Arrays;
+import kovteba.sort.bubblesort.BubbleSort;
+import kovteba.sort.insertionsort.InsertionSort;
 
 public class Demo {
     public static void main(String[] args) {
