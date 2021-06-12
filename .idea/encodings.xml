@@ -3,18 +3,24 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/algorithms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/collections/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/huffman/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-HATEOAS" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-HATEOAS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-HATEOAS/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-actuator-custom-component/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-actuator-custom-component/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-actuator-flyway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-actuator-flyway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-actuator-git/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-actuator-git/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-aop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-application-arguments/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-application-arguments/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-banner/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-configuration-properties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-configuration-properties/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-factory-method/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-factory-method/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-maven-actuator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-maven-actuator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-maven-profiles/src/main/java" charset="UTF-8" />

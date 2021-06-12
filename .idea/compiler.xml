@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="algorithms" />
         <module name="spring-HATEOAS" />
-        <module name="spring-banner" />
         <module name="spring-actuator-git" />
+        <module name="spring-banner" />
         <module name="spring-actuator-custom-component" />
         <module name="spring-factory-method" />
         <module name="spring-configuration-properties" />
@@ -23,16 +23,25 @@
         <module name="spring-application-arguments" />
         <module name="demo1" />
       </profile>
-      <profile name="Annotation profile for study" enabled="true">
-        <sourceOutputDir name="../spring-banner/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../spring-banner/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spring1" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithms" target="11" />
+      <module name="collections" target="11" />
+      <module name="huffman" target="11" />
       <module name="spring" target="11" />
+      <module name="spring-actuator-custom-component" target="11" />
+      <module name="spring-actuator-flyway" target="11" />
+      <module name="spring-actuator-git" target="11" />
+      <module name="spring-aop" target="11" />
+      <module name="spring-application-arguments" target="11" />
+      <module name="spring-banner" target="11" />
+      <module name="spring-configuration-properties" target="11" />
+      <module name="spring-factory-method" target="11" />
+      <module name="spring-HATEOAS" target="11" />
+      <module name="spring-maven-actuator" target="11" />
+      <module name="spring-maven-profiles" target="11" />
       <module name="spring1" target="11" />
+      <module name="study" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
