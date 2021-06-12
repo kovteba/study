@@ -13,7 +13,8 @@
     + [Insertion Sort](algorithms/src/main/java/kovteba/sort/insertionsort/InsertionSort.java)
     + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
   + Search:
-    + []()
+    + [Binary Search](algorithms/src/main/java/kovteba/search/binarysearch)
+    + [Linear Search](algorithms/src/main/java/kovteba/search/linearsearch)
 + [Collections](collections)
   + [My implementation of ArrayList](collections/src/main/java/kovteba/myarraylist)
   + [My implementation of LinkedList](collections/src/main/java/kovteba/linkedlist)
