@@ -11,12 +11,12 @@ public class BinarySearch {
             return key == arr[0] || key == arr[1];
         }
 
-        int middle = (arr.length - 1) / 2;
+        int middle = (arr.length) / 2;
 
-        if (arr[middle] < key){
+        if (arr[middle] <= key) {
             var ints = Arrays.copyOfRange(arr, middle, arr.length);
             return binarySearch(key, ints);
-        } else if (arr[middle] > key){
+        } else if (arr[middle] >= key) {
             var ints = Arrays.copyOfRange(arr, 0, middle);
             return binarySearch(key, ints);
         }
@@ -28,7 +28,7 @@ public class BinarySearch {
 
         var arr = new int[]{1, 3, 12, 0, 100, 543, 65, 9, 23, 34, 9, 1, 4, 5, 6, 90};
         Arrays.sort(arr);
-        System.out.println("RESYULT SEARCH " + binarySearch(23, arr));
+        System.out.println("RESYULT SEARCH " + binarySearch(543, arr));
 
     }
 }
