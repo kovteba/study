@@ -10,11 +10,12 @@
 + [Algorithms](algorithms)
   + Sort:
     + [Bubble Sort](algorithms/src/main/java/kovteba/sort/bubblesort/BubbleSort.java)
-    + [Insertion Sort](algorithms/src/main/java/kovteba/sort/insertionsort/InsertionSort.java)
+    + [Insertion Sort](algorithms/src/main/java/kovteba/sort/insertionsort/readMe.md)
     + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
   + Search:
-    + [Binary Search](algorithms/src/main/java/kovteba/search/binarysearch)
+    + [Binary Search](algorithms/src/main/java/kovteba/search/binarysearch/readMe.md)
     + [Linear Search](algorithms/src/main/java/kovteba/search/linearsearch)
+    + [Exponential Search](algorithms/src/main/java/kovteba/search/exponentialsearch/readMe.md)
 + [Collections](collections)
   + [My implementation of ArrayList](collections/src/main/java/kovteba/myarraylist)
   + [My implementation of LinkedList](collections/src/main/java/kovteba/linkedlist)
