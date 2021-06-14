@@ -33,20 +33,20 @@ public class BinarySearch {
 4. Если центральный элемент больше искомого, то передаем для поиска первую часть массива.
 
 Пример:
-inputaray: 1, 2, 3, 4, 5, 6, 7, 8
-elementToSearch: 3
-check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> false
-middle = 8 / 2 = 4
-if (arr[middle]=5 <= 3) --> false
-if (arr[middle]=5 >= 3) --> true
-    run binarySearch(3, [1, 2, 3, 4, 5])
-        check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> false
-        middle = 5 / 2 = 2
-        if (arr[middle]=3 <= 3) --> true
-            run binarySearch(3, [3, 4, 5])
-                check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> false
-                middle = 3 / 2 = 1
-                if (arr[middle]=4 <= 3) --> false
-                if (arr[middle]=4 >= 3) --> true
-                    run binarySearch(3, [3, 4])
-                        check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> true
+* inputaray: 1, 2, 3, 4, 5, 6, 7, 8
+* elementToSearch: 3
+* check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> false
+* middle = 8 / 2 = 4
+* if (arr[middle]=5 <= 3) --> false
+* if (arr[middle]=5 >= 3) --> true
+    * run binarySearch(3, [1, 2, 3, 4, 5])
+        * check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> false
+        * middle = 5 / 2 = 2
+        * if (arr[middle]=3 <= 3) --> true
+            * run binarySearch(3, [3, 4, 5])
+                * check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> false
+                * middle = 3 / 2 = 1
+                * if (arr[middle]=4 <= 3) --> false
+                * if (arr[middle]=4 >= 3) --> true
+                    * run binarySearch(3, [3, 4])
+                        * check if (arr[0] == 3 or arr[1] == 3 and arr.length = 2) --> true

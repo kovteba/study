@@ -33,20 +33,20 @@ public class ExponentialSearch {
 5. Используем бинарный поиск уже на более узком интервале значений.
 
 Пример:
-input: 1, 2, 3, 4, 5, 6, 7
-element to search: 3
-if arr[0] == 3 --> false
-if arr[arr.length - 1] == 3 --> false
-range = 1
-while:
-    1 loop:
-        (range=1) < arr.length(7) && (arr[range]=2) <= 3 --> true
-        range = 1 * 2
-    2 loop:
-        (range=2) < arr.length(7) && (arr[range]=3) <= 3 --> true
-        range = 2 * 2
-    3 loop:
-        (range=4) < arr.length(7) && (arr[range]=5) <= 3 --> false
-end while.
-range = 4
-run binarySearch with input array = [3, 4, 5]
+* input: 1, 2, 3, 4, 5, 6, 7
+* element to search: 3
+* if arr[0] == 3 --> false
+* if arr[arr.length - 1] == 3 --> false
+* range = 1
+* while:
+    * 1 loop:
+        * (range=1) < arr.length(7) && (arr[range]=2) <= 3 --> true
+        * range = 1 * 2
+    * 2 loop:
+        * (range=2) < arr.length(7) && (arr[range]=3) <= 3 --> true
+        * range = 2 * 2
+    * 3 loop:
+        * (range=4) < arr.length(7) && (arr[range]=5) <= 3 --> false
+* end while.
+* range = 4
+* run binarySearch with input array = [3, 4, 5]
