@@ -12,6 +12,7 @@
     + [Bubble Sort](algorithms/src/main/java/kovteba/sort/bubblesort/BubbleSort.java)
     + [Insertion Sort](algorithms/src/main/java/kovteba/sort/insertionsort/readMe.md)
     + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
+    + [Heap Sort](algorithms/src/main/java/kovteba/sort/heapsort/readMe.md)
   + Search:
     + [Binary Search](algorithms/src/main/java/kovteba/search/binarysearch/readMe.md)
     + [Linear Search](algorithms/src/main/java/kovteba/search/linearsearch)
@@ -29,6 +30,9 @@
   + [Around Advice](spring-aop/src/main/java/kovteba/around)
   + [Trows Advice](spring-aop/src/main/java/kovteba/trowadvice)
   + []()
+
++ Spring:
+  + [Spring request parameters and headers](spring-request-mapping/readMe.md)
 
 For testing all examples should run:
 
