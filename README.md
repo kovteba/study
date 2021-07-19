@@ -13,6 +13,7 @@
     + [Insertion Sort](algorithms/src/main/java/kovteba/sort/insertionsort/readMe.md)
     + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
     + [Heap Sort](algorithms/src/main/java/kovteba/sort/heapsort/readMe.md)
+    + [Merge Sort](algorithms/src/main/java/kovteba/sort/mergesort/readMe.md)
   + Search:
     + [Binary Search](algorithms/src/main/java/kovteba/search/binarysearch/readMe.md)
     + [Linear Search](algorithms/src/main/java/kovteba/search/linearsearch)
