@@ -11,24 +11,11 @@ public class HeapSort {
             buildHeap(arr, n, i);
         }
 
-        System.out.println("sort after for");
-        printHeap(arr);
-        System.out.println("sort after for");
-
-
         for (int i = n - 1; i >= 0; i--) {
-            System.out.println("----");
-            printHeap(arr);
-            System.out.println("----");
 
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
-
-
-            System.out.println("====");
-            printHeap(arr);
-            System.out.println("====");
 
             buildHeap(arr, i, 0);
         }
@@ -39,7 +26,6 @@ public class HeapSort {
         int largest = i;
         int l = 2 * i + 1;
         int r = 2 * i + 2;
-
 
         if (l < n && arr[l] > arr[largest]) {
             largest = l;
@@ -58,24 +44,13 @@ public class HeapSort {
         }
     }
 
-    static void printArray(int arr[]) {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
-        System.out.println();
-    }
-
     public static void main(String args[]) {
         int[] arr = {1, 12, 9, 5, 6, 10, 11, 12, 13};
 
         System.out.println("INIT: " + Arrays.toString(arr));
         sort(arr);
 
-        System.out.println("Sorted array is");
-        printArray(arr);
-
-//        printHeap(arr, arr.length / 2  - 1, 0, 1);
-//        printHeap(arr);
+        System.out.println("Sorted array is " + Arrays.toString(arr));
     }
 
     static void printHeap(int[] arr) {
