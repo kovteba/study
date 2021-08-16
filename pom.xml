@@ -24,13 +24,15 @@
         <module>spring-maven-actuator</module>
         <module>spring-actuator-git</module>
         <module>spring-actuator-flyway</module>
-        <module>spring-actuator-custom-component</module>
+        <module>spring-actuator-health-custom-component</module>
         <module>spring-configuration-properties</module>
-        <module>spring-HATEOAS</module>
+        <module>HATEOAS</module>
         <module>algorithms</module>
         <module>collections</module>
         <module>spring-factory-method</module>
         <module>spring-aop</module>
+        <module>spring-request-mapping</module>
+        <module>jackson</module>
     </modules>
 
     <properties>
