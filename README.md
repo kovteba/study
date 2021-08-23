@@ -14,12 +14,15 @@
     + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
     + [Heap Sort](algorithms/src/main/java/kovteba/sort/heapsort/readMe.md)
     + [Merge Sort](algorithms/src/main/java/kovteba/sort/mergesort/readMe.md)
+    + [Selection sort](algorithms/src/main/java/kovteba/sort/selectionsort/readMe.md)
   + Search:
     + [Binary Search](algorithms/src/main/java/kovteba/search/binarysearch/readMe.md)
     + [Linear Search](algorithms/src/main/java/kovteba/search/linearsearch)
     + [Exponential Search](algorithms/src/main/java/kovteba/search/exponentialsearch/readMe.md)
     + [Interpolation Search](algorithms/src/main/java/kovteba/search/interpolationsearch/readMe.md)
     + [Jump Search](algorithms/src/main/java/kovteba/search/jumpsearch/readMe.md)
+  + Algorithms:
+    + [Dijkstra’s algorithm](algorithms/src/main/java/kovteba/algorithm/dijkstra/readMe.md) 
 + [Collections](collections)
   + [My implementation of ArrayList](collections/src/main/java/kovteba/myarraylist)
   + [My implementation of LinkedList](collections/src/main/java/kovteba/linkedlist)
@@ -31,6 +34,10 @@
   + [Around Advice](spring-aop/src/main/java/kovteba/around)
   + [Trows Advice](spring-aop/src/main/java/kovteba/trowadvice)
   + []()
+
++ [Jackson]()
+  + [@JsonFormat](jackson/src/main/java/kovteba/jsonformat)
+  + [@JsonProperty](jackson/src/main/java/kovteba/jsonproperty)
 
 + Spring:
   + [Spring request parameters and headers](spring-request-mapping/readMe.md)
