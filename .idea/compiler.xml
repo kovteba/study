@@ -31,6 +31,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring" target="11" />
+      <module name="spring-request-mapping" target="11" />
       <module name="spring1" target="11" />
     </bytecodeTargetLevel>
   </component>
