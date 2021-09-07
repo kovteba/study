@@ -1,4 +1,4 @@
-package kovteba.sort.euclid;
+package kovteba.algorithm.euclid;
 
 public class GCDEuclid {
 

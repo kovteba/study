@@ -4,7 +4,6 @@
   + Sort:
     + [Bubble Sort](algorithms/src/main/java/kovteba/sort/bubblesort/BubbleSort.java)
     + [Insertion Sort](algorithms/src/main/java/kovteba/sort/insertionsort/readMe.md)
-    + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
     + [Heap Sort](algorithms/src/main/java/kovteba/sort/heapsort/readMe.md)
     + [Merge Sort](algorithms/src/main/java/kovteba/sort/mergesort/readMe.md)
     + [Selection sort](algorithms/src/main/java/kovteba/sort/selectionsort/readMe.md)
@@ -15,7 +14,8 @@
     + [Interpolation Search](algorithms/src/main/java/kovteba/search/interpolationsearch/readMe.md)
     + [Jump Search](algorithms/src/main/java/kovteba/search/jumpsearch/readMe.md)
   + Algorithms:
-    + [Dijkstra’s algorithm](algorithms/src/main/java/kovteba/algorithm/dijkstra/readMe.md) 
+    + [Dijkstra’s algorithm](algorithms/src/main/java/kovteba/algorithm/dijkstra/readMe.md)
+    + [GCD Euclid](algorithms/src/main/java/kovteba/sort/euclid)
 
 
 + [Collections](collections)
