@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-actuator-health-custom-component" />
+        <module name="spring-profiles" />
         <module name="algorithms" />
         <module name="spring-HATEOAS" />
         <module name="spring-actuator-git" />
         <module name="spring-banner" />
         <module name="spring-request-mapping" />
+        <module name="spring-acuator-git" />
         <module name="spring-actuator-custom-component" />
         <module name="spring-factory-method" />
         <module name="spring-configuration-properties" />
@@ -30,8 +32,25 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithms" target="11" />
+      <module name="collections" target="11" />
+      <module name="HATEOAS" target="11" />
+      <module name="huffman" target="11" />
+      <module name="jackson" target="11" />
       <module name="spring" target="11" />
+      <module name="spring-actuator-flyway" target="11" />
+      <module name="spring-actuator-health-custom-component" target="11" />
+      <module name="spring-acuator-git" target="11" />
+      <module name="spring-aop" target="11" />
+      <module name="spring-application-arguments" target="11" />
+      <module name="spring-banner" target="11" />
+      <module name="spring-configuration-properties" target="11" />
+      <module name="spring-factory-method" target="11" />
+      <module name="spring-maven-actuator" target="11" />
+      <module name="spring-profiles" target="11" />
+      <module name="spring-request-mapping" target="11" />
       <module name="spring1" target="11" />
+      <module name="study" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -47,6 +66,7 @@
       <module name="spring-actuator-flyway" options="-parameters" />
       <module name="spring-actuator-git" options="-parameters" />
       <module name="spring-actuator-health-custom-component" options="-parameters" />
+      <module name="spring-acuator-git" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-application-arguments" options="-parameters" />
       <module name="spring-banner" options="-parameters" />
@@ -54,6 +74,7 @@
       <module name="spring-factory-method" options="-parameters" />
       <module name="spring-maven-actuator" options="-parameters" />
       <module name="spring-maven-profiles" options="-parameters" />
+      <module name="spring-profiles" options="-parameters" />
       <module name="spring-request-mapping" options="-parameters" />
       <module name="spring-web-servlet" options="-parameters" />
       <module name="spring1" options="-parameters" />
